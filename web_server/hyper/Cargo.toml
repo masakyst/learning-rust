@@ -1,0 +1,8 @@
+[package]
+name = "hyper"
+version = "0.1.0"
+authors = ["Masaaki Saito <masakyst.mobile@gmail.com>"]
+
+[dependencies]
+hyper = "0.6"
+env_logger = "0.3.1"
