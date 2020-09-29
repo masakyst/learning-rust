@@ -22,16 +22,9 @@ https://doc.rust-lang.org/book/advanced-linking.html
 
 ### インストール
 
-curl -sf -L https://static.rust-lang.org/rustup.sh | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-sudo /usr/local/lib/rustlib/uninstall.sh
-
-デフォルトで/usr/localにはいる
-
-    $ rustc --version # 1.2.0
-
-
-multirustはメンテされなくなり、rustupを使うのが今時
+defaultではstableの1
 
 
 ### Vim plugin
